@@ -31,7 +31,7 @@ function App() {
             <Contact />
           </Route>
 
-          <Route path="/articles:id" >
+          <Route path="/articles/:id" >
             <Article />
           </Route>
         </Switch>
