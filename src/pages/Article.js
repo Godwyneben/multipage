@@ -16,7 +16,7 @@ export default function Article() {
         history.push('/')
       }, 2000)
     }
-  }, [error])
+  }, [error, history])
 
   return (
     <div>
